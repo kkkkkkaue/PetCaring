@@ -1,0 +1,1491 @@
+/* Preloader */
+#preloader{
+    position:fixed; 
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:White;
+    z-index:99999;
+    height:100%;
+    width:100%;
+}
+#status{
+    width:400px;
+    height:450px;
+    position:absolute;
+    left:50%;
+    top:50%;
+	text-align:center;
+    margin:-260px -0px -200px -200px;
+    background:url(../gif/GIF_Logo.gif) center no-repeat;
+}
+.imgBrasao{
+	margin-right:1%;
+	width:60px;
+	text-align:center;
+}
+.tituPet{
+	margin-top:3%;
+	font-size:40px;
+	font-family:Comic Sans MS, Comic Sans, cursive;
+	text-align:center;
+}
+.acess{
+	font-size:20px;
+	text-align:center;
+}
+.div1{
+	padding:25px;
+	border:1px black;
+}
+.btn{
+	align-items:center;
+}
+.div2{
+	text-align:center;
+}
+.divCad{
+	text-align:center;
+	
+}
+.txtVerde{
+	text-decoration:none; 
+	color:#03bb85;
+}
+
+.form-control{
+}
+.navbar{
+	background-color:#03bb85;
+}
+#tituNav{
+	color:Black;
+	font-weight:bolder;
+	
+	}
+.imgBtn{
+	width:40px; 
+	height:40px;
+	padding:0px;
+	border:none;
+}
+.d-flex{
+	width:350px;
+}
+.form-control{
+	text-align:center;
+}
+#btnCare{
+	background:url(../img/Cuidados.png) center no-repeat ;
+	background-size: cover;
+}
+#btnCare:hover{
+	filter: invert(100%);
+}
+#btnCare2{
+	background:url(../img/Cuidados.png) center no-repeat ;
+	background-size: cover;
+	filter: invert(100%);
+}
+
+#btnBook{
+	background:url(../img/breed.png)center no-repeat  ;
+	background-size: cover;
+}
+#btnBook:hover{
+	filter: invert(100%);
+}
+#btnBook2{
+	background:url(../img/breed.png) center no-repeat ;
+	background-size: cover;
+	filter: invert(100%);
+}
+
+#btnHome{
+	background:url(../img/home.png) center no-repeat;
+	
+	background-size: cover;
+}
+
+.btnAdotar{
+	opacity:75%;
+}
+
+#btnHome2{
+	background:url(../img/home.png) center no-repeat;
+	background-size: cover;
+}
+#btnHome2:hover{
+	background:url(../img/home.png) center no-repeat;
+	background-size: cover;
+	filter: invert(100%);
+}
+
+#btnChat{
+	background:url(../img/chat.png) center no-repeat;
+	background-size: cover;
+}
+#btnChat:hover{
+	filter: invert(100%);
+}
+#btnChat2{
+	background:url(../img/chat.png) center no-repeat;
+	background-size: cover;
+	filter: invert(100%);
+}
+
+/*	
+.sinoNotific{
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	border-radius: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+.sinoNotific:hover{
+	width: 300px;
+	height: 60px;
+	text-align: left;
+	padding: 0;
+	background: #0058a1;
+	transform: translateY(-100%);
+}
+
+.sinoNotific:hover .fas{
+	color: #412cff;
+}
+
+.sinoNotific .fas{
+	color: #cecece;
+	line-height: 60px;
+	font-size: 30px;
+}
+
+
+.sinoNotific:hover .numer{
+	position: relative;
+	background: transparent;
+	color: #fff;
+	font-size: 24px;
+	top: -4px;
+}
+
+.sinoNotific:hover .numer:after{
+	content:' ' 'teste';
+}
+
+nav ul{
+	position: absolute;
+	left: 1;
+	top: 1;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	padding: 20px;
+	box-sizing: border-box;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	display: none;
+}
+
+nav ul li{
+	list-style: none;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	padding: 8px 0;
+	display: flex;
+}
+
+nav ul li:last-child
+{
+	border-bottom: none;
+}
+
+nav ul li .icon
+{
+	width: 24px;
+	height: 24px;
+	background: #ccc;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 24px;
+	margin-right: 15px;
+}
+
+nav ul li .icon .fas
+{
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+nav ul li .txt
+{
+	position: relative;
+	font-family: sans-serif;
+	top: 3px;
+	cursor: pointer;
+}
+
+nav ul li:hover .txt{
+	font-weight: bold;
+	color: #0a32e2;
+}
+
+nav .sinoNotific:hover ul{
+	display: block;
+}
+
+FINAL DO CODIGO NOTIFICACAO NAO FUNCIONAL*/
+
+.imgBtnPerfil{
+	width:40px; 
+	height:40px;
+	border-radius:2.0rem;
+	border:none;
+}
+#imgBtnDenuncia{
+	width:100px; 
+	height:100px;
+	position:fixed;
+	border-radius:4.0rem;
+	padding:0px;
+	border:none;
+	margin:0% 3% 2% 0% ;
+	background:url(../img/Megafone.png) center no-repeat;
+	background-size: cover;
+}
+#imgBtnDenuncia:hover{
+		box-shadow: 0 0 2em gold;
+		
+}
+#WapperCard{
+        margin-top:100px;
+        max-width:500px;
+        max-height:646px;
+        min-height:360px;
+        width:540px;
+        height:80%;
+	border:1px solid black;
+}/*
+#btnEmotion{
+	max-height:40px;
+	min-height:40px;
+	max-width: 40px;
+	min-width: 40px;
+	border-radius:1px;
+}
+#InComent{
+	max-height:40px;
+	min-height:40px;
+	max-width: 455px;
+	min-width: 455px;
+}*/
+.card-title{
+		height:5%;
+		display:flex;
+		align-items: center; 
+}
+.menuPoints{
+	width:25px; 
+	height:20px;
+	background:url(../img/tres-pontos.png) center no-repeat;
+	background-size: cover;
+	border:none;
+	float:right;
+	margin-right:10px;
+	display:block;
+}
+.card-img-top{
+	width:100%;
+	height:50%;
+	border-bottom:1px solid black;
+}
+.BtnPerfilMenor{
+	width:25px; 
+	height:25px;
+	border-radius:1.5rem;
+	border:none;
+	margin:10px;
+}
+ul.none {
+	list-style-type: none;
+	width:250px;
+	}
+.areaPublic{
+	border-top:3px solid black;
+}
+#arranjoPerfil{
+	margin-top:2%;
+}
+.divAcoes{
+	width:100%;
+	height:10%;
+	border-bottom:1px solid black;
+	margin-top:98%;
+}
+.btnReact{
+	width:40px; 
+	height:40px;
+	border-radius:2.0rem;
+	padding:0px;
+	border:none;
+	margin-left:5%;
+}
+#divLike{
+	width:50%;
+	height:50%;
+	background:url(../img/PawLikeG.png) center no-repeat;
+	background-size:contain;
+	visibility:hidden;
+}
+#btnLike{
+	background:url(../img/PawLike.png) center no-repeat;
+	background-size: cover;
+}
+#share{
+	background:url(../img/Share.png) center no-repeat;
+	background-size: cover;
+	transform:translateX(-5px);
+}
+#share:hover{
+	transition-duration: 1s;
+	transform:translateX(5px);
+}
+#comment{
+	background:url(../img/comment.png) center no-repeat;
+	background-size: cover;
+}
+.descricao{
+	height:50px;
+}
+#tltDenuncia{
+	margin-top:30px;
+	text-align:center;
+}
+#formDenuncia{
+	width:80%;
+	height:450px;
+	background-color:#2b3e51;
+	border:5px solid gold;
+	top:1%;
+}
+#lblEstado{
+	font-size:20px;
+	color:white;
+	margin-top: 10px;
+	font-weight: bold;
+}
+#lblDados{
+	font-size:20px;
+	color:white;
+	font-weight: bold;
+}
+#exampleFormControlTextarea1{
+	max-width:40%;
+	max-height:300px;
+	text-align:left;
+	background-color:transparent;
+	color:white;
+}
+#imgTel{
+	background:url(../img/PNG_TEL.png) center  no-repeat;
+	background-size: cover;
+	width:25px;
+	height:25px;
+}
+#btnDenunciar{
+	width:15%;
+	margin-top:2%;
+}
+#txtBtnDenuncie{
+	font-size:15px;
+}	
+#txtBtnDenuncie{
+	font-size:15px;
+}	
+#imgBtnPerfilMaior{
+	width:175px;
+	height:175px;
+	border-radius:90px;
+	background-color:black;
+}
+#btnEditarPerfil{
+	color:white;
+	background-color:#0058a1;
+}
+
+#imgEditarPerfil{
+	width:25px;
+	height:25px;
+	margin-right:5px;
+	background:url(../img/lapisEditar.png)left no-repeat;
+	background-size:cover;
+	filter: invert(100%);
+}
+#imgEditarPerfil .img
+{
+    border:0;
+}
+
+#linha{
+	width:80%;
+	height:0px;
+	border-top: 1px solid black;
+	align-items:center;
+}	
+.imgCards{
+	width:250px;
+	height:250px;
+	background-color:black;
+	border-radius:0.5rem;
+}
+.containerPuclic{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#tituPublic{
+	text-align:center;
+	font-weight:bolder;
+}
+#ttGuia{
+	font-size:30px;
+	text-align:center;
+}
+#contentRaca{
+	margin-bottom: 30px;
+	margin-top:20px;
+    font-size: 0;
+    text-align: center;
+}
+
+#contChat{
+	border:1px solid black;
+}
+.list-group{
+	max-height:899px;
+	float:left;
+	width:100%;
+}
+.descricao{
+	height:125px;
+	
+}
+.cardCuidados{
+	width:100%;
+	height:100px;
+}
+.tituCuidados{
+	height:50px;
+}
+.card-subtitle{
+	font-size:50px;
+}
+.infoCard{
+	margin-left:200px;
+	padding:25px;
+}
+
+#titleCuidados{
+	width:75%;
+	float:left;
+}
+.btnImgVoz{
+	width:40px;
+	height:40px;
+	border:none;
+	border-radius:1.0rem;
+	background:url(../img/ChamVoz.png)left no-repeat;
+	background-size:cover;
+		margin-right:20px;
+}
+.btnImgVideo{
+	width:50px;
+	height:50px;
+	border:none;
+	border-radius:1.0rem;
+	background:url(../img/VideoCamera.png)left no-repeat;
+	background-size:cover;
+}
+.contMsn{
+	margin-top:5px;
+	height:88%;
+}
+.imgEnviar{
+	width:100px;
+	height:100px;
+	border:none;
+	background:url(../img/Send.png) center no-repeat;
+	background-size:cover;
+}
+#BalaoDeMsgs{
+	float:right;
+	font-size:20px;
+	margin-top:15%;
+	padding:10px;
+	background-color:Honeydew;
+	border-radius:0.75rem 0em 0.75rem 0.75em;
+	line-height:0.25em;
+}
+.msgIn{
+	border:none;
+	background-color:transparent;
+}
+#horario{
+	line-height:0.25em;
+	font-size:15px;
+	color:gray;
+	text-align:right;
+}
+#visto{
+	line-height:0.25em;
+	font-size:15px;
+	color:blue;
+	text-align:right;
+}
+#txtMSG{
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:57%;
+}
+#BalaoDeMsgs2{
+	float:left;
+	font-size:20px;
+	padding:10px;
+	color:black;
+	background-color:Gainsboro;
+	border-radius: 0em	0.75rem 0.75rem 0.75em;
+	margin-bottom:50px;
+}
+#msgs{
+	width:70%;
+	height:20%;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:-15%;
+}
+.divSup{
+	height:100px;
+}
+#btnPerfilChat{
+	border-radius:2.0rem;
+	width:50px;
+	height:50px;
+	margin-right:30px;
+}
+#btnPerfilChat2{
+	border-radius:4.0rem;
+	width:75px;
+	height:75px;
+	margin-right:30px;
+}
+
+#tituCad{
+	text-align:center;
+	margin:1%;
+}
+#adicionarFotoPublic{
+	width:200px;
+	height:200px;
+	background-color:black;
+	cursor:pointer;
+	border-radius:100px;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+*{
+	
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+.max-width {
+    max-width: 500px;
+    width: 100%;
+}
+
+#imgPhoto{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 5px solid #ccc;
+	background-color: #eee;
+	transition: background .3s;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit:cover;
+}
+#imgPhoto:hover{
+    background-color: rgb(180, 180, 180);
+    border: 5px solid #111;
+}
+
+.imagensGuia{
+	width: 286px;
+    height: 280px;
+	background-size:cover;
+}
+.NomeDaRacaNoVerso{
+	font-size:30px;
+	font-family:Impact, fantasy;
+	text-align:center;
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+	width:18rem;
+	height:23rem;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+.CorDosTopicos{
+	color:white;
+}
+#ImgItemPais{
+	list-style-image: url(../img/Marcadores/icons8-globo-terrestre-50.png);
+	list-style-position: inside;
+	color:cyan;
+}
+#ImgItemPorte{
+	list-style-image: url(../img/Marcadores/icons8-cachorro-48.png);
+	list-style-position: inside;
+	color:cyan;
+}
+#ImgItemComida{
+	list-style-image: url(../img/Marcadores/comida.png);
+	list-style-position: inside;
+	color:cyan;
+}
+#ImgItemTamanho{
+	list-style-image: url(../img/Marcadores/icons8-fita-métrica-50.png);
+	list-style-position: inside;
+	color:cyan;
+}
+#ImgItemPeso{
+	list-style-image: url(../img/Marcadores/icons8-peso-kg-50.png);
+	list-style-position: inside;
+	color:cyan;
+}
+
+#imgAkita{
+		background:url(../img/Caes/akita.png)left no-repeat;
+	background-size:cover;
+}
+#imgAmericanStaffordshireTerrier{
+		background:url(../img/Caes/American_Staffordshire_Terrier.png)left no-repeat;
+	background-size:cover;
+}
+#imgBasset{
+		background:url(../img/Caes/Basset.png)left no-repeat;
+	background-size:cover;
+}
+#imgBeagle{
+		background:url(../img/Caes/Beagle.png)left no-repeat;
+	background-size:cover;
+}
+#imgBoiadeiro{
+		background:url(../img/Caes/Boi.png)left no-repeat;
+	background-size:cover;
+}
+#imgCollie{
+	background:url(../img/Caes/Collie.png)left no-repeat;
+	background-size:cover;
+}
+#imgBuldogue{
+	background:url(../img/Caes/Buldogue.png)left no-repeat;
+	background-size:cover;
+}
+#imgBulFrance{
+	background:url(../img/Caes/BulFrance.png)left no-repeat;
+	background-size:cover;
+}
+#imgBullTerrier{
+	background:url(../img/Caes/BullTerrier.png) left no-repeat;
+	background-size:cover;
+	}
+#imgCaneCorso{
+	background:url(../img/Caes/CaneCorso.png) left no-repeat;
+	background-size:cover;
+}
+#imgChihuahuaPeloCurto{
+	background:url(../img/Caes/ChihuahuaPeloCurto.png) left no-repeat;
+	background-size:cover;	
+}
+#imgChowChow{
+	background:url(../img/Caes/ChowChow.png) left no-repeat;
+	background-size:cover;
+}
+#imgDobermann{
+	background:url(../img/Caes/Dobermann.png) left no-repeat;
+	background-size:cover;	
+}
+#imgDogoArgentino{
+	background:url(../img/Caes/DogoArgentino.png) left no-repeat;
+	background-size:cover;	
+}
+#imgFilaBrasileiro{
+	background:url(../img/Caes/FilaBrasileiro.png) left no-repeat;
+	background-size:cover;
+}
+#imgGoldenRetriever{
+	background:url(../img/Caes/GoldenRetriever.png) left no-repeat;
+	background-size:cover;	
+}
+#imgLabradorRetriever{
+	background:url(../img/Caes/LabradorRetriever.png) left no-repeat;
+	background-size:cover;	
+}
+#imgLhasaApso{
+	background:url(../img/Caes/LhasaApso.png) left no-repeat;
+	background-size:cover;
+}
+#imgMaltes{
+	background:url(../img/Caes/Maltes.png) left no-repeat;
+	background-size:cover;
+}
+#imgPrBelgaMalinois{
+	background:url(../img/Caes/PastorBelgaMalinois.png) left no-repeat;
+	background-size:cover;
+}
+#imgPrBrancoSuico{
+	background:url(../img/Caes/PastorBrancoSuico.png) left no-repeat;
+	background-size:cover;
+}
+#imgDalmata{
+	background:url(../img/Caes/Dalmata.png) left no-repeat;
+	background-size:cover;
+	}
+#imgPug{
+	background:url(../img/Caes/Pug.png) left no-repeat;
+	background-size:cover;
+	}
+#imgRottweiler{
+	background:url(../img/Caes/Rottweiler.png) left no-repeat;
+	background-size:cover;
+	}	
+#imgSchnauzerMinSeP{
+	background:url(../img/Caes/SchnauzerMinSeP.png) left no-repeat;
+	background-size:cover;
+	}
+#imgShihTzu{
+	background:url(../img/Caes/ShihTzu.png) left no-repeat;
+	background-size:cover;
+	}
+#imgSpitzAlemaoAnao{
+	background:url(../img/Caes/SpitzAlemaoAnao.png) left no-repeat;
+	background-size:cover;
+	}
+#imgStaffordshireBullTerrier{
+	background:url(../img/Caes/StaffordshireBullTerrier.png) left no-repeat;
+	background-size:cover;
+	}
+#imgViraLata{
+	background:url(../img/Caes/ViraLata.png) left no-repeat;
+	background-size:cover;
+	}
+#imgYorkshireTerrier{
+	background:url(../img/Caes/YorkshireTerrier.png) left no-repeat;
+	background-size:cover;
+	}
+	
+/*Gatos*/
+
+#imgAbissinio{
+	background:url(../img/Gatos/Abissinio.png)left no-repeat;
+	background-size:cover;
+}
+#imgAngora{
+	background:url(../img/Gatos/Angora.png)left no-repeat;
+	background-size:cover;
+}
+#imgAshera{
+	background:url(../img/Gatos/Ashera.png)left no-repeat;
+	background-size:cover;
+}
+#imgBalines{
+	background:url(../img/Gatos/Balines.png)left no-repeat;
+	background-size:cover;
+}
+#imgBengal{
+	background:url(../img/Gatos/Bengal.png)left no-repeat;
+	background-size:cover;
+}
+#imgBobtailAmericano{
+	background:url(../img/Gatos/BobtailAmericano.png)left no-repeat;
+	background-size:cover;
+}
+#imgBobtailJapones{
+	background:url(../img/Gatos/BobtailJap.png)left no-repeat;
+	background-size:cover;
+}
+#imgBombay{
+	background:url(../img/Gatos/Bombay.png)left no-repeat;
+	background-size:cover;
+}
+#imgBurmes{
+	background:url(../img/Gatos/Burmes.png)left no-repeat;
+	background-size:cover;
+}
+#imgChartreux{
+	background:url(../img/Gatos/Chartreux.png)left no-repeat;
+	background-size:cover;
+}
+#imgColorpointDePeloCurto{
+	background:url(../img/Gatos/ColorpointPeloCurto.png)left no-repeat;
+	background-size:cover;
+}
+#imgCornishRex{
+	background:url(../img/Gatos/CornishRex.png)left no-repeat;
+	background-size:cover;
+}
+#imgCurlAmericano{
+	background:url(../img/Gatos/CurlAmericano.png)left no-repeat;
+	background-size:cover;
+}
+#imgDevonRex{
+	background:url(../img/Gatos/DevonRex.png)left no-repeat;
+	background-size:cover;
+}
+#imgHimalaio{
+	background:url(../img/Gatos/Himalaio.png)left no-repeat;
+	background-size:cover;
+}
+#imgJavanes{
+	background:url(../img/Gatos/Javanes.png)left no-repeat;
+	background-size:cover;
+}
+#imgKorat{
+	background:url(../img/Gatos/Korat.png)left no-repeat;
+	background-size:cover;
+}
+#imgLaPerm{
+	background:url(../img/Gatos/LaPerm.png)left no-repeat;
+	background-size:cover;
+}
+#imgAkitMaineCoona{
+	background:url(../img/Gatos/AkitMaineCoona.png)left no-repeat;
+	background-size:cover;
+}
+#imgMaineCoon{
+	background:url(../img/Gatos/MaineCoon.png)left no-repeat;
+	background-size:cover;
+}
+#imgManx{
+	background:url(../img/Gatos/Manx.png)left no-repeat;
+	background-size:cover;
+}
+#imgCymric{
+	background:url(../img/Gatos/Cymric.png)left no-repeat;
+	background-size:cover;
+}
+#imgMauEgipcio{
+	background:url(../img/Gatos/MauEgipcio.png)left no-repeat;
+	background-size:cover;
+}
+#imgMistAustraliano{
+	background:url(../img/Gatos/MistAustraliano.png)left no-repeat;
+	background-size:cover;
+}
+#imgMunchkin{
+	background:url(../img/Gatos/Munchkin.png)left no-repeat;
+	background-size:cover;
+}
+#imgNorueguesDaFloresta{
+	background:url(../img/Gatos/NoruegueDaFloresta.png)left no-repeat;
+	background-size:cover;
+}
+#imgPeloCurtoAmericano{
+	background:url(../img/Gatos/PeloCurtoAmericano.png)left no-repeat;
+	background-size:cover;
+}
+#imgPeloCurtoBrasileiro{
+	background:url(../img/Gatos/PeloCurtoBrasileiro.png)left no-repeat;
+	background-size:cover;
+}
+#imgPeloCurtoEuropeu{
+	background:url(../img/Gatos/PeloCurtoEuropeu.png)left no-repeat;
+	background-size:cover;
+}
+#imgPeloCurtoIngles{
+	background:url(../img/Gatos/PeloCurtoIngles.png)left no-repeat;
+	background-size:cover;
+}
+#imgPersa{
+	background:url(../img/Gatos/Persa.png)left no-repeat;
+	background-size:cover;
+}
+#imgPixieBob{
+	background:url(../img/Gatos/Pixie-bob.png)left no-repeat;
+	background-size:cover;
+}
+#imgRagdoll{
+	background:url(../img/Gatos/Ragdoll.png)left no-repeat;
+	background-size:cover;
+}
+#imgOcicat{
+	background:url(../img/Gatos/Ocicat.png)left no-repeat;
+	background-size:cover;
+}
+#imgRussoAzul{
+	background:url(../img/Gatos/RussoAzul.png)left no-repeat;
+	background-size:cover;
+}
+#imgSagradoDaBirmania{
+	background:url(../img/Gatos/SagradoDaBirmania.png)left no-repeat;
+	background-size:cover;
+}
+#imgSavannah{
+	background:url(../img/Gatos/Savannah.png)left no-repeat;
+	background-size:cover;
+}
+#imgScottishFold{
+	background:url(../img/Gatos/ScottishFold.png)left no-repeat;
+	background-size:cover;
+}
+#imgSelkirkRex{
+	background:url(../img/Gatos/SelkirkRex.png)left no-repeat;
+	background-size:cover;
+}
+#imgSiames{
+	background:url(../img/Gatos/Siames.png)left no-repeat;
+	background-size:cover;
+}
+#imgSiberiano{
+	background:url(../img/Gatos/Siberiano.png)left no-repeat;
+	background-size:cover;
+}
+#imgSingapura{
+	background:url(../img/Gatos/Singapura.png)left no-repeat;
+	background-size:cover;
+}
+#imgSomali{
+	background:url(../img/Gatos/Somali.png)left no-repeat;
+	background-size:cover;
+}
+#imgSphynx{
+	background:url(../img/Gatos/Sphynx.png)left no-repeat;
+	background-size:cover;
+}
+#imgThai{
+	background:url(../img/Gatos/Thai.png)left no-repeat;
+	background-size:cover;
+}
+#imgTonquines{
+	background:url(../img/Gatos/Tonquines.png)left no-repeat;
+	background-size:cover;
+}
+#imgToyger{
+	background:url(../img/Gatos/Toyger.png)left no-repeat;
+	background-size:cover;
+}
+#imgUsuri{
+	background:url(../img/Gatos/Usuri.png)left no-repeat;
+	background-size:cover;
+}
+#imgSRD{
+	background:url(../img/Gatos/SRD.png)left no-repeat;
+	background-size:cover;
+}
+
+#imgHamSirio{
+	background:url(../img/Hamster/HamSirio.jpg)left no-repeat;
+	background-size:cover;}
+#imgHamAnao{background:url(../img/Hamster/HamAnao.png)left no-repeat;
+	background-size:cover;}
+
+#imgCanario{background:url(../img/Aves/Calopsita.png)left no-repeat;
+	background-size:cover;}
+#imgCalopsita{background:url(../img/Aves/Canario.png)left no-repeat;
+	background-size:cover;}
+#imgGould{background:url(../img/Aves/DiamanteGould.png)left no-repeat;
+	background-size:cover;}
+#imgMandarim{background:url(../img/Aves/Mandarim.jpg)left no-repeat;
+	background-size:cover;}
+#imgManon{background:url(../img/Aves/Manon.png)left no-repeat;
+	background-size:cover;}
+#imgPeriquito{background:url(../img/Aves/Periquito.png)left no-repeat;
+	background-size:cover;}
+
+	#imgColAngora{	background:url(../img/Coelhos/CoelhoAngora.jpg)left no-repeat;
+		background-size:cover;}
+	#imgColRex{	background:url(../img/Coelhos/CoelhoRex.png)left no-repeat;
+		background-size:cover;}
+	#imgColLeon{	background:url(../img/Coelhos/CoelhoLeao.png)left no-repeat;
+		background-size:cover;}
+	#imgColFlandres{	background:url(../img/Coelhos/CoelhoFlemish.png)left no-repeat;
+		background-size:cover;}
+	#imgColMiniLop{	background:url(../img/Coelhos/CoelhoMiniLop.png)left no-repeat;
+		background-size:cover;}
+	#imgColPolones{	background:url(../img/Coelhos/CoelhoPolones.png)left no-repeat;
+		background-size:cover;}
+	#imgColDwarf{	background:url(../img/Coelhos/CoelhoDwarf.png)left no-repeat;
+		background-size:cover;}
+	#imgColMiniRex{	background:url(../img/Coelhos/MiniRex.png)left no-repeat;
+		background-size:cover;}
+	#imgColHotot{	background:url(../img/Coelhos/Dwarf_hotot.png)left no-repeat;
+		background-size:cover;}
+	#imgColLionLop{	background:url(../img/Coelhos/Mini_Lion_Lop.png)left no-repeat;
+		background-size:cover;}
+	#imgColCalifornia{	background:url(../img/Coelhos/California.png)left no-repeat;
+		background-size:cover;}
+	#imgColIngles{	background:url(../img/Coelhos/Borboleta_Ingles.png)left no-repeat;
+		background-size:cover;}
+	#imgColMinLop{	background:url(../img/Coelhos/CoelhoMiniLop.png)left no-repeat;
+		background-size:cover;}
+	#imgColFrench{	background:url(../img/Coelhos/french.png)left no-repeat;
+		background-size:cover;}
+	#imgLebBelg{	background:url(../img/Coelhos/Lebre_Belga.png)left no-repeat;
+		background-size:cover;}
+	#imgColJersey{	background:url(../img/Coelhos/Jersey_Wooly.png)left no-repeat;
+		background-size:cover;}
+	#imgColEnglishLop{	background:url(../img/Coelhos/English_Lop.png)left no-repeat;
+		background-size:cover;}
+	#imgColCheckered{	background:url(../img/Coelhos/checkered_giant_rabbit.png)left no-repeat;
+		background-size:cover;}
+
+#config{
+	width:400px;
+	height:250px;
+	display:none;
+	position: absolute;
+  right: 0px;
+  z-index:999;
+}
+#config a{
+	text-decoration:none;
+}
+#btnPerfil{
+	display:block;
+}
+#lkPerfil a{	text-decoration:none;}
+#Notific{
+	width:485px;
+	height:250px;
+	display:none;
+		position: absolute;
+  right: 0px;
+  z-index:999;
+}
+#btnSino{
+	background:url(../img/notificacao.png) center no-repeat;
+	background-size: cover;
+	display:block;
+}
+#btnSino:hover{
+	filter: invert(100%);
+}
+
+#efeitoFade{
+    position:fixed; 
+    background-color:black;
+	opacity: 0.6;
+    z-index:99998;
+    height:100%;
+    width:100%;
+	display:none;
+}
+#modal1{
+    width:400px;
+    height:450px;
+    position:fixed;
+    left:50%;	
+    top:50%;
+	text-align:center;
+    margin:-260px -0px -200px -200px;
+	z-index:99999;
+	display:none;
+}
+#modal3{
+    width:400px;
+    height:450px;
+    position:fixed;
+    left:50%;
+    top:50%;
+    text-align:center;
+    margin:-380px -0px -200px -200px;
+    z-index:99999;
+    display:none;
+}
+
+.list2{
+	padding-top:110px;
+	padding-bottom:110px;
+}
+
+/* teste modal
+.modal-bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgb(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s opacity 0,5s;
+}
+.bg-active{
+	visibility: visible;
+	opacity: 1;
+}
+
+.modal-close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-weight: bold;
+}
+
+.modal{
+	background-color: white;
+	width: 30%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.modal button{
+	padding: 10px 30px;
+	background-color: greenyellow;
+	color: white;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+}
+*/
+
+/*----INICIO CHAT POR VIDEO----*/
+#chamaVid{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	display: none;
+}
+
+#vLocal{
+	position:absolute;
+	top: 0;
+	left: 0;
+	margin: 16px;
+	border-radius: 16px;
+	max-width: 20%;
+	max-height: 20%;
+	background: #fff;
+}
+
+#vRemoto{
+	background:#111;
+	width: 100%;
+	height: 100%;
+}
+
+.acionarV{
+	position: absolute;
+	left: 45%;
+	bottom: 32px;
+}
+.divAlterarPerfil
+{
+	height:500px;
+	border:2px solid black ;
+}
+.listBtns{
+	height:100%;
+	border-right:2px solid black ;
+}
+#idSenha{
+	display:Block;
+	background:white;
+}
+#idEmail
+{
+	display:none;
+	background:white;
+}
+#idEdPerfil{
+	display:none;
+	background:white;
+}
+.editPerfil{
+	width:150px;
+	height:150px;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 5px solid #ccc;
+	background-color: #eee;
+	transition: background .3s;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit:cover;
+}
+.editPerfil:hover{
+    background-color: rgb(180, 180, 180);
+    border: 5px solid #111;
+}
+/*----FINAL CHAT POR VIDEO----*/
+
+/*19_10*/
+#btnMore{
+	width:150px;
+	height:150px;
+	font-size:50px;
+	font-weight:900;
+	text-align:center;
+	border-radius:50%;
+}
+.CardPublicacao{
+	width:15rem;
+	height:15rem;
+}
+#flip-box2{
+	width:15rem;
+	height:15rem;
+}
+#imgPublicacao{
+	width: 286px;
+    height: 280px;
+	background-size:cover;
+}
+#flip-box-back2{
+	background-color:black;
+}
+
+.hr3 {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+#imgPix{
+	background:url(../img/FormDePag/) center no-repeat;
+	background-size: cover;
+	display:block;
+	width:50px; height:50px;
+}
+#imgQR{
+	background:url(../img/FormDePag/qr-code.png) center no-repeat;
+	background-size: cover;
+	display:block;
+	width:50px; height:50px;
+}
+#imgCode{
+	background:url(../img/FormDePag/bars-code.png) center no-repeat;
+	background-size: cover;
+	display:block;
+	width:50px; height:50px;
+}
+
+#imgCard{
+	background:url(../img/FormDePag/credit-card.png) center no-repeat;
+	background-size: cover;
+	display:block;
+	width:50px; height:50px;
+}
+#AreaDeReact{
+	width:295px;
+	height:55px;
+}
+#areaData{
+	height:5px;
+}
+/*19_10*/
+#chat{overflow: hidden;}
+/*20_10*/
+#AreaDeComent{
+	width:295px;
+	height:340px;
+	overflow: auto;
+}
+/*26/10*/
+.nomePet{
+    font-weight: bold;
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+
+/* AVES.JSP */
+#bannerNome{
+    margin-top:20px;
+    height:60px;
+    width:25%;
+    background:#03bb85;
+    float: center;
+}
+#bannerSub{
+    margin-top:20px;
+    height:60px;
+    width:45%;
+    background:#04E09E;
+}
+#contentLogo{
+    background:url(../img/breed.png) center no-repeat;
+    background-size: cover;
+    filter: invert(100%);
+    width:40px; 
+    height:40px;
+    margin:10px;
+}
+#ttGDR{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    font-size:25px;
+    font-weight:bold;
+    color:white;
+}
+#subTT{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    font-size:25px;
+    font-weight:bold;
+    color:#1F614D;
+}
+.btn2{
+    background-color:#03BB85;
+}
+.flip-box-back {
+  background-color:#03BB85;
+  color: white;
+  transform: rotateY(180deg);
+}
+.CorDosTopicos{
+    color:white;
+}
+#ImgItemPais{
+    list-style-image: url(../img/Marcadores/icons8-globo-terrestre-50.png);
+    list-style-position: inside;
+    color:#00FFCC;
+}
+#ImgItemPorte{
+    list-style-image: url(../img/Marcadores/icons8-cachorro-48.png);
+    list-style-position: inside;
+    color:#00FFCC;
+}
+#ImgItemComida{
+    list-style-image: url(../img/Marcadores/comida.png);
+    list-style-position: inside;
+    color:#00FFCC;
+}
+#ImgItemTamanho{
+    list-style-image: url(../img/Marcadores/icons8-fita-métrica-50.png);
+    list-style-position: inside;
+    color:#00FFCC;
+}
+#ImgItemPeso{
+    list-style-image: url(../img/Marcadores/icons8-peso-kg-50.png);
+    list-style-position: inside;
+    color:#00FFCC;
+}
+
+/*10_11*/
+#cardCare a{
+    text-decoration:none;
+    color:#03bb85;
+}
+#cardCare:hover{
+    background:white;
+}
+.flip-box {
+  background-color: transparent;
+    width:18rem;
+    height:282px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+#bd2{
+    background:#fdfdfd;
+}
+#ttDicas{
+    color:#03bb85;
+    font-weight:bold;
+}
+.ttPequeno{
+    text-decoration:none;
+    font-weight:bold;
+    color:gray;
+}
+.contentTipo{
+    margin-top:25px;
+    text-align:center;
+}
+#preview{
+    background:url(../img/c.jpg) center no-repeat;
+    height:14rem; 
+    background-size:cover;
+        cursor:pointer;
+}
+#compartilharPublicacao{
+    width:400px;
+    height:450px;
+    position:fixed;
+    left:50%;
+    top:50%;
+    text-align:center;
+    margin:-260px -0px -200px -200px;
+    z-index:99999;
+    display:none;
+}
